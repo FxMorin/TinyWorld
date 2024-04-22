@@ -11,6 +11,7 @@ Cause let's be honest here. The current system is pretty bad and just "cool" to 
 - Fixes the camera clipping into blocks [MC-267376](https://bugs.mojang.com/browse/MC-267376)
 - Fixes multiple animations not scaling correctly (walking, flying)
 - Fixes the fov being too small, when you scale the movement speed with the scale.
+- Fixes camera scales closer to walls when small [MC-268648](https://bugs.mojang.com/browse/MC-268648)
 ### Collision
 - Adds support for Block collision shape overriding (Using the model shape as the collision shape)
 
@@ -26,8 +27,6 @@ It gives the illusion that everything is normal. This can be used for adventure 
 - View bobbing doesn't scale [MC-267368](https://bugs.mojang.com/browse/MC-267368)
 - Nametags don't get scaled [MC-267599](https://bugs.mojang.com/browse/MC-267599)*
 - Fix particles created scaled entities not being scaled. ([eating](https://bugs.mojang.com/browse/MC-270594), terrain, potions, etc[.](https://bugs.mojang.com/browse/MC-270878)[.](https://bugs.mojang.com/browse/MC-270942)[.](https://bugs.mojang.com/browse/MC-270801))
-### Scaling Down (prioritized over up)
-- Camera scales closer to walls when small [MC-268648](https://bugs.mojang.com/browse/MC-268648)
 ### Scaling Up
 - Actions sounds not working correctly [MC-270592](https://bugs.mojang.com/browse/MC-270592)
 - Sneaking no longer works [MC-268917](https://bugs.mojang.com/browse/MC-268917)*

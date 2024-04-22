@@ -5,15 +5,12 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "BlocksMixin",
-    "scale.LivingEntityMixin",
-    "scale.PlayerMixin",
     "collision.BlockBehaviourMixin",
-    "collision.CacheMixin"
+    "collision.CacheMixin",
+    "scale.LivingEntityMixin",
+    "scale.PlayerMixin"
   ],
   "client": [
-    "scale.AbstractClientPlayerMixin",
-    "scale.GameRendererMixin",
-    "scale.HumanoidModelMixin",
     "MinecraftMixin",
     "collision.json.BlockModelMixin",
     "collision.json.DeserializerMixin",
@@ -22,7 +19,11 @@
     "collision.models.ForwardingBakedModelMixin",
     "collision.models.MultiPartBakedModelMixin",
     "collision.models.SimpleBakedModelMixin",
-    "collision.models.WeightedBakedModelMixin"
+    "collision.models.WeightedBakedModelMixin",
+    "scale.AbstractClientPlayerMixin",
+    "scale.CameraMixin",
+    "scale.GameRendererMixin",
+    "scale.HumanoidModelMixin"
   ],
   "injectors": {
     "defaultRequire": 1
