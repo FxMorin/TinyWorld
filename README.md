@@ -23,6 +23,8 @@ It gives the illusion that everything is normal. This can be used for adventure 
 ---
 
 ## TODO:
+### Bugs
+- Custom block collisions aren't removed when the resource pack no longer has them...
 ### Scaling
 - View bobbing doesn't scale [MC-267368](https://bugs.mojang.com/browse/MC-267368)
 - Nametags don't get scaled [MC-267599](https://bugs.mojang.com/browse/MC-267599)*
