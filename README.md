@@ -28,7 +28,7 @@ It gives the illusion that everything is normal. This can be used for adventure 
 ### Scaling
 - View bobbing doesn't scale [MC-267368](https://bugs.mojang.com/browse/MC-267368)
 - Nametags don't get scaled [MC-267599](https://bugs.mojang.com/browse/MC-267599)*
-- Fix particles created scaled entities not being scaled. ([eating](https://bugs.mojang.com/browse/MC-270594), terrain, potions, etc[.](https://bugs.mojang.com/browse/MC-270878)[.](https://bugs.mojang.com/browse/MC-270942)[.](https://bugs.mojang.com/browse/MC-270801))
+- Fix particles created by scaled entities not being scaled. ([eating](https://bugs.mojang.com/browse/MC-270594), terrain, potions, etc[.](https://bugs.mojang.com/browse/MC-270878)[.](https://bugs.mojang.com/browse/MC-270942)[.](https://bugs.mojang.com/browse/MC-270801))
 ### Scaling Up
 - Actions sounds not working correctly [MC-270592](https://bugs.mojang.com/browse/MC-270592)
 - Sneaking no longer works [MC-268917](https://bugs.mojang.com/browse/MC-268917)*
