@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.fxco.TinyWorld.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlocksMixin",
+    "scale.LivingEntityMixin",
+    "scale.PlayerMixin",
+    "collision.BlockBehaviourMixin",
+    "collision.CacheMixin"
+  ],
+  "client": [
+    "scale.AbstractClientPlayerMixin",
+    "scale.GameRendererMixin",
+    "scale.HumanoidModelMixin",
+    "MinecraftMixin",
+    "collision.json.BlockModelMixin",
+    "collision.json.DeserializerMixin",
+    "collision.models.BakedModelMixin",
+    "collision.models.BuiltInModelMixin",
+    "collision.models.ForwardingBakedModelMixin",
+    "collision.models.MultiPartBakedModelMixin",
+    "collision.models.SimpleBakedModelMixin",
+    "collision.models.WeightedBakedModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

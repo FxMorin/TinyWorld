@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "tinyworld",
+  "version": "${version}",
+  "name": "Tiny World",
+  "description": "This mod exists to show Mojang how cool scaling could be if they simply put a bit more effort into it",
+  "authors": [
+    "FX"
+  ],
+  "contact": {
+    "repo": "https://github.com/fxmorin/TinyWorld"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/tiny_world/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ca.fxco.TinyWorld.TinyWorldClient"
+    ],
+    "main": [
+      "ca.fxco.TinyWorld.TinyWorld"
+    ]
+  },
+  "mixins": [
+    "tiny_world.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.20.5-rc.2"
+  }
+}
