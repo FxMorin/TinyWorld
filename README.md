@@ -68,3 +68,7 @@ Here are the commands that will shrink you by 16x. It should account for everyth
 /execute as @a run attribute @s minecraft:player.block_interaction_range base set 0.28125
 /execute as @a run attribute @s minecraft:player.entity_interaction_range base set 0.1875
 ```
+
+---
+
+<img src="https://github.com/fxmorin/TinyWorld/blob/master/img/example.png?raw=true" alt="Orb example"/>
